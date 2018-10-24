@@ -58,7 +58,7 @@ public class Student {
 
     public String getUsername() {
         String username = name + age;
-        String result = username.replaceAll("\\s+","");
+        String result = username.replaceAll("\\s","");
         return result;
     }
 

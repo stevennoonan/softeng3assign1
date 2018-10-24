@@ -75,4 +75,10 @@ public class CourseProgramme {
     public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
+    
+    
+    @Override
+    public String toString(){
+       return this.courseName + " " + this.modulesList; 
+    }
 }

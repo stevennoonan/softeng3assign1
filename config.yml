@@ -1,0 +1,13 @@
+language: java
+
+jdK: 
+  - jdk10
+
+branches:
+  only:
+    - master
+
+build:
+  ci:
+    - mvn compiler:compile
+    - mvn test

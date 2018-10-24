@@ -79,6 +79,6 @@ public class CourseProgramme {
     
     @Override
     public String toString(){
-       return this.courseName + " " + this.modulesList.toString(); 
+      return this.getCourseName();
     }
 }

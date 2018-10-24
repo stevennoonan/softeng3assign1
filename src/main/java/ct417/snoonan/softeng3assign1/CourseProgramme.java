@@ -9,8 +9,8 @@ import org.joda.time.LocalDate;
  */
 public class CourseProgramme {
     private String courseName;
-    private List modulesList;
-    private List studentsList;
+    private List<Module> modulesList;
+    private List<Student> studentsList;
     private LocalDate startDate;
     private LocalDate endDate;
     
@@ -44,11 +44,11 @@ public class CourseProgramme {
         }
     }
 
-    public List getModulesList() {
+    public List<Module> getModulesList() {
         return modulesList;
     }
 
-    public List getStudentsList() {
+    public List<Student> getStudentsList() {
         return studentsList;
     }
 

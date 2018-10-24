@@ -54,4 +54,9 @@ public class Module {
     public List getCourses(){
         return coursesList;
     }
+    
+    @Override
+    public String toString(){
+        return this.getModName() + " " + this.getModId() + "\n";
+    }
 }
